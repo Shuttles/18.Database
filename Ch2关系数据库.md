@@ -245,7 +245,160 @@
 
 # 4.关系代数
 
+## 4.1概述
 
+### 4.1.1关系代数
+
+1. 一种抽象的==查询==语言。
+2. 用***<u>对关系的运算</u>***来表达查询。(???==说实话没看懂==???)
+
+### 4.1.2运算的三要素
+
+1. 运算对象：关系
+2. 运算结果：关系
+3. 运算符：四类
+
+
+
+运算符
+
+1. ***<u>集合运算符</u>***
+
+   + 将关系看成元组的集合
+   + 运算是从关系的“水平”方向即行的角度来进行
+
+2. ***<u>专门的关系运算符</u>***
+
+   不仅涉及行而且设计列
+
+3. ***<u>算术比较符</u>***
+
+   辅助专门的关系运算符进行操作
+
+4. ***<u>逻辑运算符</u>***
+
+   辅助专门的关系运算符进行操作
+
+
+
+![img](https://wx2.sinaimg.cn/mw690/005LasY6gy1ge14e2ag4bj30o50frdpw.jpg)
+
+![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1ge14ecppnjj30oz0e5guq.jpg)
+
+## 4.2传统的集合运算
+
+### 4.2.1并
+
+![img](https://wx2.sinaimg.cn/mw690/005LasY6gy1ge14l951x8j30on0f0qca.jpg)
+
+![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1ge14lqpddzj30sf0hzna4.jpg)
+
+
+
+### 4.2.2差
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1ge14rr9xh6j30q70em7dw.jpg)
+
+![img](https://wx1.sinaimg.cn/mw690/005LasY6gy1ge14rzurgkj30sf0itk4t.jpg)
+
+
+
+### 4.2.3交
+
+![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1ge14sw207kj30pi0fin75.jpg)
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1ge14t0c595j30st0i6gyu.jpg)
+
+
+
+### 4.2.4广义笛卡尔积
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1ge14usyz60j30r60gkqek.jpg)
+
+![img](https://wx1.sinaimg.cn/mw690/005LasY6gy1ge14v0x6c4j30s00ir16p.jpg)
+
+
+
+## 4.3专门的关系运算
+
+### 4.3.1选择
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1ge1534kwwxj30s70hiws1.jpg)
+
+![img](https://wx1.sinaimg.cn/mw690/005LasY6gy1ge15397536j30ou0cajyl.jpg)
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1ge153fiknuj30sa0hjqcf.jpg)
+
+![img](https://wx1.sinaimg.cn/mw690/005LasY6gy1ge153nxyeqj30q30ee0xu.jpg)
+
+
+
+### 4.3.2投影
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1ge157bk7bqj30mw09xdlq.jpg)
+
+![img](https://wx1.sinaimg.cn/mw690/005LasY6gy1ge157kp3xmj30ts0eq13x.jpg)
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1ge157oi5mjj30r90ddthx.jpg)
+
+![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1ge157spzuzj30kb0fpwmb.jpg)
+
+### 4.3.3连接
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1ge15dkmn4dj30sc0h5wrn.jpg)
+
+![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1ge15e8cvuqj30so0eqqe4.jpg)
+
+![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1ge15egpyktj30rb0evwp9.jpg)
+
+![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1ge15ekxlccj30ru0gvk2u.jpg)
+
+![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1ge15ep43v9j30qn0id14p.jpg)
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1ge15etwul3j30o50i4dqm.jpg)
+
+![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1ge15eyodnhj30nv0hswox.jpg)
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1ge15f5owjfj30ky0hzdp1.jpg)
+
+
+
+### 4.3.4除
+
+![img](https://wx2.sinaimg.cn/mw690/005LasY6gy1ge169mwxgej30sq0hgqg8.jpg)
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1ge169ugf22j30p40gjgvm.jpg)
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1ge16a1eygij30ri0hgk3c.jpg)
+
+![img](https://wx2.sinaimg.cn/mw690/005LasY6gy1ge16a6h2vdj30sf0grqfd.jpg)
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1ge16agf4v0j30qc0hsaln.jpg)
+
+![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1ge16akz7pwj30on0hpwpb.jpg)
+
+
+
+
+
+## 4.4小结
+
+1. ***<u>关系代数运算</u>***
+
+   并、差、交、广义笛卡尔积、投影、选择、连接、除
+
+2. ***<u>基本运算</u>***
+
+   并、差、广义笛卡尔积、投影、选择
+
+3. ***<u>交、连接、除</u>***
+
+   + 可以用五种基本运算来表达
+   + 引进它们并不增加语言的能力，但可以简化表达
+
+![img](https://wx2.sinaimg.cn/mw690/005LasY6gy1ge16pct238j30sc0dnqcx.jpg)
+
+![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1ge16vtrsqhj30sf0gq7gs.jpg)
 
 # 5.关系演算
 
